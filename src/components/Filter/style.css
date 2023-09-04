@@ -1,0 +1,30 @@
+q/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  display: auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(231, 55%, 49%);
+}
+.drawer {
+  overflow: hidden;
+}
+.drawer:hover {
+  overflow-y: scroll;
+}
+.sidebar {
+  position: sticky;
+  top: 20px;
+}
